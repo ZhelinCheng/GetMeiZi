@@ -5,7 +5,7 @@
     <block wx:for="{{imgData}}" wx:key="{{item._id}}">
       <swiper-item class="swiper-item">
         <view class="inner">
-          <image src="{{item.url}}"></image>
+          <image src="{{item.url}}" mode="aspectFill"></image>
           <view>
             <text class="text-title">GET妹子</text>
             <text>http://zhelin.me/</text>
