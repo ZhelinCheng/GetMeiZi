@@ -7,8 +7,8 @@
         <view class="inner">
           <image src="{{item.url}}"></image>
           <view>
-            <text class="text-title">{{item.type}}</text>
-            <text>{{item.who}}</text>
+            <text class="text-title">GET妹子</text>
+            <text>http://zhelin.me/</text>
             <text>{{item.publishedAt}}</text>
           </view>
         </view>
