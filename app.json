@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/rec/rec"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF6666",
+    "navigationBarTitleText": "GET妹子，每天发现更好的",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "borderStyle" : "white",
+    "color" : "#333",
+    "list": [{
+      "selectedIconPath" : "icon/a2.png",
+      "iconPath" : "icon/a1.png",
+      "pagePath": "pages/index/index",
+      "text": "今日"
+    }, {
+      "selectedIconPath" : "icon/p2.png",
+      "iconPath" : "icon/p1.png",
+      "pagePath": "pages/rec/rec",
+      "text": "更多"
+    }]
+    }
+}

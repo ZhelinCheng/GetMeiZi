@@ -1,0 +1,18 @@
+
+<!--index.wxml-->
+<view class="container" style="background-image: url({{bgImg}})" >
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  bindchange="listenSwiper">
+    <block wx:for="{{imgData}}" wx:key="{{item._id}}">
+      <swiper-item class="swiper-item">
+        <view class="inner">
+          <image src="{{item.url}}"></image>
+          <view>
+            <text class="text-title">{{item.type}}</text>
+            <text>{{item.who}}</text>
+            <text>{{item.publishedAt}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

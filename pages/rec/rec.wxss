@@ -1,0 +1,19 @@
+.images-list {
+  padding: 20rpx 45rpx;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-flow :wrap;
+}
+
+.column {
+  display: inline-block;
+  width: 290rpx;
+    
+}
+
+.column-item-img {
+  margin: 0 20rpx 40rpx;
+  width: 290rpx;
+  box-shadow: 0 0 16rpx 1rpx #6c6c6c;
+  border-radius: 8rpx;
+}

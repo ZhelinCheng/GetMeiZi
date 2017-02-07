@@ -1,0 +1,5 @@
+
+<!--rec.wxml-->
+<view class="container images-list" >
+    <image class="column-item-img" wx:for="{{imgList}}" wx:key="{{item._id}}" bindtap="showBigImg" data-url="{{item.url}}" mode="aspectFill" src="{{item.url}}"></image>
+</view>
